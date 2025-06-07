@@ -1,43 +1,42 @@
 Here's a comprehensive `README.md` file for your collaborative whiteboard application with AI features:
 
 ```markdown
-# CollabBoard - AI-Powered Collaborative Whiteboard 🎨✍️
+CollabBoard - AI-Powered Collaborative Whiteboard 🎨✍️
 
 
 
 
-### 🎨 Core Whiteboard
+ Core Whiteboard
 - Real-time collaborative drawing with multiple users
 - Brush customization (color, size, opacity)
 - Shapes, text, sticky notes, and image embedding
 - Unlimited undo/redo history
 - Export as PNG, JPEG, PDF (SVG coming soon)
 
-### 🤖 AI Enhancements
+ AI Enhancements
 - **Sketch-to-Shape**: Converts rough drawings into perfect shapes
 - **Diagram Suggestions**: Recommends flowchart/UML improvements
 - **Template Generator**: Creates templates based on your content
 - **Code Whiteboarding**: Sketch-to-pseudocode conversion
 
-### 🗣️ Voice & Accessibility
+ Voice & Accessibility
 - Voice command control ("Undo", "Change to blue", "Export PDF")
 - Screen reader compatibility
 - High contrast mode
 
-### 👥 Collaboration
+ Collaboration
 - Live cursor tracking
 - Follow Mode (shadow another user's view)
 - Built-in chat and emoji reactions
 - Version history timeline
 
-## 🚀 Getting Started
+ Getting Started
 
-### Prerequisites
-- Node.js 18+
+ Prerequisites
 - Docker (for Keycloak and PostgreSQL)
 - Yarn/NPM
 
-### Installation
+Installation
 ```bash
 # Clone repository
 git clone https://github.com/anshumeshsaini/Collaborative-Whiteboard.git
@@ -50,7 +49,7 @@ yarn install
 cp .env.example .env
 ```
 
-### Running Locally
+ Running Locally
 ```bash
 # Start development server
 yarn dev
@@ -61,9 +60,9 @@ docker-compose up -d
 
 Access the app at `http://localhost:5713`
 
-## 🛠️ Tech Stack
+ Tech Stack
 
-### Frontend
+Frontend
 - React 18 (TypeScript)
 - Bootstrap 5.2 + Custom SCSS
 - Fabric.js (Canvas rendering)
@@ -71,12 +70,12 @@ Access the app at `http://localhost:5713`
 - WebSocket (Real-time updates)
 
 
-### AI Services
+AI Services
 - TensorFlow.js (Client-side models)
 - ONNX Runtime (Shape recognition)
 - Web Speech API (Voice commands)
 
-### DevOps
+ DevOps
 
 - GitHub Actions (CI/CD)
 
@@ -85,7 +84,7 @@ Access the app at `http://localhost:5713`
 
 ```
 
-## 🧪 Testing
+ 🧪 Testing
 
 Run test suites:
 ```bash
@@ -101,10 +100,10 @@ yarn test:perf
 
 ```
 
-### Vercel/Netlify
+ Vercel/Netlify
 Configure these environment variables
 
-## 📈 Performance Metrics
+ 📈 Performance Metrics
 
 | Feature                 | Target Latency | Bundle Impact |
 |-------------------------|----------------|---------------|
@@ -117,7 +116,7 @@ Configure these environment variables
 
 
 
-## ✉️ Contact
+ ✉️ Contact
 
 
 Email: anshumesh.saini@gmail.com
