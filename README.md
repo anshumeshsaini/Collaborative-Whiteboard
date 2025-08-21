@@ -1,12 +1,17 @@
 CollabBoard - AI-Powered Collaborative Whiteboard 🎨✍️
-<div align="center">
+
 https://via.placeholder.com/150x150/4A90E2/FFFFFF?text=%F0%9F%8E%A8
+
 https://via.placeholder.com/600x200/4A90E2/FFFFFF?text=Real-time+Collaborative+Drawing
+
 https://img.shields.io/badge/License-MIT-yellow.svg
+
 https://img.shields.io/badge/TypeScript-4.9-blue.svg
+
 https://img.shields.io/badge/React-18-blue.svg
 
-</div>
+
+
 ✨ Features
 🎨 Core Whiteboard
 <svg width="600" height="120"> <rect width="600" height="120" fill="#f0f8ff" rx="10" /> <circle cx="80" cy="60" r="15" fill="#4A90E2" /> <circle cx="130" cy="60" r="15" fill="#50E3C2" /> <circle cx="180" cy="60" r="15" fill="#B8E986" /> <circle cx="230" cy="60" r="15" fill="#FF4081" /> <rect x="280" y="45" width="30" height="30" fill="#9013FE" /> <path d="M330 45 L360 75 L330 75 Z" fill="#F5A623" /> <text x="400" y="65" font-family="Arial" font-size="14" fill="#333">Real-time collaboration</text> </svg>
